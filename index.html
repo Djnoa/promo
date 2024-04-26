@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <nav class="navigation-menu">
+            <ul class="navigation-list">
+                <li class="navigation-link"><a href="/">Home</a></li>
+                <li class="navigation-link"><a href="about.html">About</a></li>
+                <li class="navigation-link"><a href="howitworks.html">How it works</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col-md-6 custom-margin-heading">
+                    <h1 class="homepage-heading">Swift care, anywhere...</h1>
+                </div>
+                <div class="col-md-6 text-center custom-margin-logo">
+                    <img class="logo" src="/images/logo.svg" alt="Logo">
+                    <h1 class="logo-heading">CareSwift</h1>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-6 align-items-center custom-margin-signup">
+                    <h2 class="sign-up-heading">Sign Up</h2>
+                    <form class="sign-up-form" action="submit_form.php" method="post">
+                        <input 
+                            class="form-input"
+                            type="email" 
+                            id="email" 
+                            placeholder="Email" 
+                            name="email"
+                        />
+                        <input 
+                            class="form-input"
+                            type="password" 
+                            id="password" 
+                            placeholder="Password" 
+                            name="password"
+                        />
+                        <button class="sign-up-button" type="submit">Create an account</button>
+                    </form>
+                </div>
+                <div class="col-md-6 d-flex flex-row ml-md-5 custom-margin-phone">
+                    <img class="phone phone-with-app" src="/images/phone-with-app.png" alt="Phone with App">
+                    <img class="phone phone-with-app-two" src="/images/phone-with-app2.png" alt="Phone with App">
+                    <img class="phone phone-with-app-three" src="/images/phone-with-app3.png" alt="Phone with App">
+                </div>
+            </div>
+            <div class="row">
+                <!-- Additional content can go here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
